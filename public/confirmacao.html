@@ -8,20 +8,28 @@
 </head>
 <body>
   <header>
-  <div class="header-container">
-    <img src="img/logo.png" alt="Blue Skies Logo" class="logo-header">
-    <div class="header-texto">
-      <h1>BLUE SKIES</h1>
+    <div class="header-container">
+      <img src="img/logo.png" alt="Blue Skies Logo" class="logo-header">
+      <div class="header-texto">
+        <h1>BLUE SKIES</h1>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
   <main>
     <div class="sucesso-container">
-      <div class="icone-sucesso">✅</div>
-      <h2 style="color: var(--azul-escuro); font-size: 2.2rem; margin-bottom: 15px;">Tudo Certo!</h2>
-      <p style="font-size: 1.2rem; color: #555;">Sua refeição foi agendada com sucesso.</p>
-      <p style="font-size: 1rem; color: #999; margin-top: 20px;">A tela retornará ao início em instantes...</p>
+      <div class="icone-sucesso">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <h2>Tudo Certo!</h2>
+      <p class="sucesso-mensagem">Sua refeição foi agendada com sucesso.</p>
+      
+      <div class="sucesso-timer">
+        <div class="barra-progresso"></div>
+      </div>
+      <p class="sucesso-rodape">Redirecionando para o início...</p>
     </div>
   </main>
 
